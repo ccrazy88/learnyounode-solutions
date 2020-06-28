@@ -14,12 +14,12 @@ const printAllData = () => {
 
 const fetch = (url, index) => {
   http
-    .get(url, res => {
+    .get(url, (res) => {
       res.setEncoding("utf8");
       res.on("error", console.error);
 
       let joinedData = "";
-      res.on("data", data => {
+      res.on("data", (data) => {
         joinedData += data;
       });
 

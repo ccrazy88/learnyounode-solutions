@@ -8,7 +8,7 @@ const filter = (folder, ext, callback) => {
     }
     const extWithPeriod = "." + ext;
     const filteredFiles = files.filter(
-      file => path.extname(file) === extWithPeriod
+      (file) => path.extname(file) === extWithPeriod
     );
     callback(null, filteredFiles);
   });

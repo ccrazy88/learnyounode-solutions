@@ -3,15 +3,15 @@ const url = require("url");
 
 const port = process.argv[2];
 
-const getTimeForDate = date => {
+const getTimeForDate = (date) => {
   return {
     hour: date.getHours(),
     minute: date.getMinutes(),
-    second: date.getSeconds()
+    second: date.getSeconds(),
   };
 };
 
-const getUnixTimeForDate = date => {
+const getUnixTimeForDate = (date) => {
   return { unixtime: date.getTime() };
 };
 
