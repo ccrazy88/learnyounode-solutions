@@ -1,5 +1,3 @@
-/* eslint-disable no-console */
-
 const http = require("http");
 
 const allUrls = process.argv.slice(2);

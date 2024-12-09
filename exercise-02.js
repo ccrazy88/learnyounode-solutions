@@ -1,5 +1,3 @@
-/* eslint-disable no-console */
-
 const numbers = process.argv.slice(2);
 const sum = numbers
   .map((str) => Number(str))

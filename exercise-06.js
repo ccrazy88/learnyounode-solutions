@@ -1,5 +1,3 @@
-/* eslint-disable no-console */
-
 const filter = require("./exercise-06-filter");
 
 const folder = process.argv[2];
